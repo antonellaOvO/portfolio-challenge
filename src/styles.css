@@ -257,8 +257,15 @@ a {
 
 /*From here goes on for sayhi.html*/
 .contact {
+  font-size: 30px;
   text-align: center;
+  margin-top: 100px;
   padding: 100px;
   border-top: 10px solid black;
   border-bottom: 10px solid black;
+}
+
+.contact footer {
+  font-size: 50px;
+  margin-top: 60px;
 }
