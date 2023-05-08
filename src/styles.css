@@ -257,15 +257,31 @@ a {
 
 /*From here goes on for sayhi.html*/
 .contact {
+  font-family: "Tenor Sans", sans-serif;
   font-size: 30px;
   text-align: center;
-  margin-top: 100px;
-  padding: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 50px;
   border-top: 10px solid black;
   border-bottom: 10px solid black;
 }
 
+.contact h2 {
+  font-size: 80px;
+  margin-bottom: 30px;
+  font-family: "Maven Pro", sans-serif;
+}
+.contact.email-link {
+  font-weight: bolder;
+}
 .contact footer {
   font-size: 50px;
   margin-top: 60px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 15px;
+  border: 2px;
+  border-style: dashed solid;
+  border-color: #b0a46f;
 }
