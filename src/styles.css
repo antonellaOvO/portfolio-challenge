@@ -86,9 +86,12 @@ footer a {
   margin: 0 auto;
 }
 
+@media (min-width: 1200px) .h1, h1 {
+  font-size: 8.5rem;
+}
+
 .title-name {
   text-align: center;
-  font-size: 100px !important;
   color: #353cf7;
   font-family: "Tenor Sans", sans-serif;
   margin-top: 40px;
