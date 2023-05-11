@@ -88,7 +88,7 @@ footer a {
 
 .title-name {
   text-align: center;
-  font-size: 100px;
+  font-size: 100px !important;
   color: #353cf7;
   font-family: "Tenor Sans", sans-serif;
   margin-top: 40px;
