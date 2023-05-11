@@ -86,15 +86,16 @@ footer a {
   margin: 0 auto;
 }
 
-.column-image {
+.title-name {
   text-align: center;
-}
-
-.column-image h1 {
-  font-size: 100px;
+  font-size: 80px;
   color: #353cf7;
   font-family: "Tenor Sans", sans-serif;
   margin-top: 40px;
+}
+
+.column-image {
+  text-align: center;
 }
 
 .img-portfolio {
