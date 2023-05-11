@@ -173,6 +173,10 @@ a.link-instagram {
   margin-top: 30px;
 }
 
+.fa-location-dot {
+  font-size: 1.5rem;
+}
+
 .column-description {
   text-align: center;
 }
@@ -271,6 +275,13 @@ a.link-instagram {
   margin-bottom: 30px;
   font-family: "Maven Pro", sans-serif;
 }
+
+.contact a.fa-paper-plane-top {
+  font-size: 80px;
+  font-weight: bolder;
+  color: #bfd65a;
+}
+
 .contact a.email-link {
   font-weight: bolder;
   color: #b0a46f;
