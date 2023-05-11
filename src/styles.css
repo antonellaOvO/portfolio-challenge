@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+.name-nav {
+  color: white;
+  font-size: 38px;
+  text-decoration: none;
+  font-family: "Caveat", cursive;
+}
+
 .navbar-nav li a {
   color: #555555;
 }
