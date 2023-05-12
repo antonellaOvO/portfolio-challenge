@@ -47,19 +47,32 @@
 /*Common footer*/
 footer {
   text-align: center;
+  padding-top: 100px;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   font-size: 30px;
   color: black;
+  background-color: #242329;
 }
 
 footer a {
   padding: 30px;
-  color: black;
+  color: white;
+}
+
+hr {
+  padding: 20px;
+  margin: 15px 5%;
+}
+
+.links-footer {
+  padding: 20px;
 }
 
 .fa-facebook {
-  color: #344d88;
+  color: #007cf7;
+  background-color: white;
+  border-radius: 100%;
 }
 
 .fa-instagram {
@@ -85,10 +98,27 @@ a.link-instagram {
 
 .fa-linkedin {
   color: #0063c2;
+  background-color: white;
 }
 
 .fa-twitter {
   color: #1c96e8;
+}
+
+.open-sourced {
+  color: white;
+  text-align: center;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  margin-top: 135px;
+  padding-bottom: 35px;
+}
+
+.source-link {
+  padding: 0;
+  color: #dbb921;
+  font-weight: bolder;
 }
 
 /*From here goes on index.html*/
@@ -97,14 +127,11 @@ a.link-instagram {
   margin: 0 auto;
 }
 
-@media (min-width: 1200px) .h1, h1 {
-  font-size: 8.5rem;
-}
-
 .title-name {
   text-align: center;
   color: #353cf7;
   font-family: "Tenor Sans", sans-serif;
+  font-size: 8.5rem;
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -287,6 +314,9 @@ a.link-instagram {
   color: #b0a46f;
 }
 .contact footer {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   font-size: 50px;
   padding: 15px;
   margin: 60px 10%;
@@ -299,7 +329,7 @@ a.link-instagram {
 .contact footer a.link-instagram i.fa-instagram {
   line-height: 43px;
   border-radius: 100%;
-  color: #fff;
+  color: white;
   background: #d6249f;
   background: radial-gradient(
     circle at 30% 107%,
@@ -310,4 +340,32 @@ a.link-instagram {
     #285aeb 90%
   );
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.count-insta {
+  color: black;
+}
+
+.contact footer:hover {
+  border: 4px #bfd65a;
+  border-style: dashed solid;
+}
+.footer-p {
+  padding-top: 100px;
+  padding-bottom: 35px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  color: white;
+  background-color: #242329;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 15px;
+}
+.sourced-sayhi {
+  text-align: center;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 18px;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
