@@ -47,8 +47,8 @@
 /*Common footer*/
 footer {
   text-align: center;
-  padding-top: 100px;
-  margin-top: 50px;
+  padding: 25px 0;
+  margin-top: 230px;
   margin-bottom: 0px;
   font-size: 30px;
   color: black;
@@ -61,8 +61,10 @@ footer a {
 }
 
 hr {
-  padding: 20px;
-  margin: 15px 5%;
+  color: white;
+  border: 1px solid;
+  padding: 0px;
+  margin: 25px 5%;
 }
 
 .links-footer {
@@ -107,12 +109,12 @@ a.link-instagram {
 
 .open-sourced {
   color: white;
+  background: grey;
   text-align: center;
   font-family: "Tenor Sans", sans-serif;
   font-size: 18px;
-  margin: 0;
-  margin-top: 135px;
-  padding-bottom: 35px;
+  margin: 25 0;
+  padding: 15px;
 }
 
 .source-link {
@@ -132,8 +134,8 @@ a.link-instagram {
   color: #353cf7;
   font-family: "Tenor Sans", sans-serif;
   font-size: 8.5rem;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .column-image {
@@ -146,7 +148,7 @@ a.link-instagram {
 }
 
 .column-text {
-  margin-top: 250px;
+  margin-top: 160px;
   text-align: center;
 }
 
@@ -183,6 +185,7 @@ a.link-instagram {
   margin: 0 5%;
   margin-top: 50px;
   padding: 40px;
+  padding-top: 0;
   border-top: 10px solid black;
   border-bottom: 10px solid black;
 }
@@ -286,6 +289,12 @@ a.link-instagram {
   border-radius: 8px;
 }
 
+.link-launch:hover {
+  color: #b0a46f;
+  background-color: white;
+  border: 1px solid #b0a46f;
+}
+
 /*From here goes on for sayhi.html*/
 .contact {
   font-family: "Tenor Sans", sans-serif;
@@ -351,7 +360,7 @@ a.link-instagram {
   border-style: dashed solid;
 }
 .footer-p {
-  padding-top: 100px;
+  padding-top: 90px;
   padding-bottom: 35px;
   margin-top: 50px;
   margin-bottom: 0px;
