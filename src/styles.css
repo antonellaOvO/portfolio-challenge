@@ -127,13 +127,14 @@ a.link-instagram {
 .homepage-row {
   font-family: "Maven Pro", sans-serif;
   margin: 0 auto;
+  align-items: center;
 }
 
 .title-name {
   text-align: center;
   color: #353cf7;
   font-family: "Tenor Sans", sans-serif;
-  font-size: 8.5rem;
+  font-size: 6.5rem;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -148,7 +149,7 @@ a.link-instagram {
 }
 
 .column-text {
-  margin-top: 160px;
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -165,7 +166,7 @@ a.link-instagram {
 .column-text p {
   padding: 10px;
   font-family: "Tenor Sans", sans-serif;
-  text-align: justify;
+  text-align: center;
 }
 
 .card {
@@ -377,4 +378,14 @@ a.link-instagram {
   padding: 0;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+  .title-name {
+    font-size: 4.5rem;
+  }
+
+  .column-text h2 {
+    font-size: 40px;
+  }
 }
