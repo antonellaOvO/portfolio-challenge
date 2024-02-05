@@ -139,7 +139,7 @@ a.link-instagram {
   margin-bottom: 30px;
 }
 
-.column-image {
+.column-img-homepage {
   text-align: center;
 }
 
@@ -181,7 +181,7 @@ a.link-instagram {
 
 /*From here goes on for about.html*/
 .about-row {
-  align-items: center;
+  align-items: flex-start;
   font-family: "Tenor Sans", sans-serif;
   margin: 0 5%;
   margin-top: 50px;
@@ -191,17 +191,18 @@ a.link-instagram {
   border-bottom: 10px solid black;
 }
 
-.column-img {
+.column-img-about {
   text-align: center;
   margin-top: 110px;
 }
 
-.column-img img {
+.column-img-about img {
   border-radius: 50px;
 }
 
-.column-img h4 {
-  margin-top: 30px;
+.column-img-about h4 {
+  margin-top: 18px;
+  font-size: 20px;
 }
 
 .fa-location-dot {
@@ -212,15 +213,18 @@ a.link-instagram {
   text-align: center;
 }
 
-.column-description h2 {
+.title-how {
   font-family: "Maven Pro", sans-serif;
-  font-size: 50px;
-  margin: 30px auto;
+  color: #333652;
+  font-size: 5rem;
+  margin: 40px auto;
+  margin-bottom: 55px;
+  text-align: center;
 }
 
 .column-description .card {
   text-align: center;
-  margin: 0 30px;
+  margin: 0px;
   border-radius: 10px;
 }
 
@@ -387,5 +391,50 @@ a.link-instagram {
 
   .column-text h2 {
     font-size: 40px;
+  }
+
+  .column-description h2 {
+    font-size: 42px;
+  }
+
+  .title-how {
+    font-size: 3.65rem;
+  }
+}
+
+@media (max-width: 910px) {
+  .title-how {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+  }
+
+  .column-description .card p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .title-how {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 753px) {
+  .column-description .card p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 505px) {
+  .title-how {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 445px) {
+  .title-how {
+    font-size: 1.2rem;
   }
 }
