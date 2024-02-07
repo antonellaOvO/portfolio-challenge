@@ -246,10 +246,15 @@ a.link-instagram {
 .row-dogs p {
   font-size: 25px;
   color: #5e64e9;
+  text-align: left;
 }
 
 .row-dogs img {
-  max-width: 60%;
+  max-width: 70%;
+}
+
+.title-project-name {
+  text-align: left;
 }
 
 .row-weather {
@@ -260,7 +265,7 @@ a.link-instagram {
 }
 
 .row-weather img {
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .row-weather p {
@@ -271,13 +276,14 @@ a.link-instagram {
 .row-yogurt {
   font-family: "Tenor Sans", sans-serif;
   margin: 0 15%;
-  padding: 88px;
+  padding: 40px;
+  padding-bottom: 88px;
   border-top: 10px solid black;
   border-bottom: 10px solid black;
 }
 
 .row-yogurt img {
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .row-yogurt p {
@@ -402,6 +408,37 @@ a.link-instagram {
   }
 }
 
+@media (max-width: 1200px) {
+  .text-dogs-column {
+    margin-top: 25px;
+  }
+
+  .img-weather-column {
+    order: 0;
+  }
+
+  .text-weather-column {
+    order: 1;
+    margin-top: 25px;
+  }
+
+  .row-weather p {
+    text-align: center;
+  }
+
+  .text-yogurt-column {
+    margin-top: 25px;
+  }
+
+  .title-project-name {
+    text-align: center;
+  }
+
+  .row-dogs p {
+    text-align: center;
+  }
+}
+
 @media (max-width: 910px) {
   .title-how {
     font-size: 2.8rem;
@@ -424,12 +461,29 @@ a.link-instagram {
   .column-description .card p {
     text-align: center;
   }
+  .row-dogs p {
+    font-size: 18px;
+  }
+
+  .row-weather p {
+    font-size: 18px;
+  }
+
+  .row-yogurt p {
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 505px) {
   .title-how {
     font-size: 1.5rem;
     margin-bottom: 15px;
+  }
+  .title-project-name {
+    font-size: 20px;
+  }
+  .link-launch {
+    font-size: 10px;
   }
 }
 
