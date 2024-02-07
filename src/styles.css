@@ -333,20 +333,33 @@ a.link-instagram {
   font-weight: bolder;
   color: #b0a46f;
 }
-.contact footer {
+.contact .box-social-networks {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   font-size: 50px;
-  padding: 15px;
+  padding: 10px 0px;
   margin: 60px 10%;
   border: 2px;
   border-radius: 20px;
   border-style: dashed solid;
   border-color: #b0a46f;
+  justify-content: space-evenly;
 }
 
-.contact footer a.link-instagram i.fa-instagram {
+.contact .box-social-networks:hover {
+  border: 2px #bfd65a;
+  border-style: dashed solid;
+}
+
+.contact .box-social-networks a {
+}
+
+.instagram-column {
+  text-align: center;
+}
+
+.contact a.link-instagram i.fa-instagram {
   line-height: 43px;
   border-radius: 100%;
   color: white;
@@ -364,16 +377,15 @@ a.link-instagram {
 
 .count-insta {
   color: black;
+  font-size: 15px;
+  font-family: "Caveat", cursive;
+  text-decoration: none;
 }
 
-.contact footer:hover {
-  border: 4px #bfd65a;
-  border-style: dashed solid;
-}
 .footer-p {
-  padding-top: 90px;
+  padding-top: 50px;
   padding-bottom: 35px;
-  margin-top: 50px;
+  margin-top: 110px;
   margin-bottom: 0px;
   font-size: 30px;
   color: white;
@@ -384,10 +396,10 @@ a.link-instagram {
 .sourced-sayhi {
   text-align: center;
   font-family: "Tenor Sans", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   padding: 0;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1200px) {
@@ -406,9 +418,7 @@ a.link-instagram {
   .title-how {
     font-size: 3.65rem;
   }
-}
 
-@media (max-width: 1200px) {
   .text-dogs-column {
     margin-top: 25px;
   }
@@ -450,10 +460,13 @@ a.link-instagram {
   }
 }
 
-@media (max-width: 720px) {
-  .title-how {
-    font-size: 1.8rem;
-    margin-bottom: 25px;
+@media (max-width: 810px) {
+  .contact h2 {
+    font-size: 44px;
+  }
+
+  .contact a.email-link {
+    font-size: 20px;
   }
 }
 
@@ -474,6 +487,17 @@ a.link-instagram {
   }
 }
 
+@media (max-width: 720px) {
+  .title-how {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+
+  .sourced-sayhi {
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 505px) {
   .title-how {
     font-size: 1.5rem;
@@ -485,10 +509,26 @@ a.link-instagram {
   .link-launch {
     font-size: 10px;
   }
+
+  .contact h2 {
+    font-size: 35px;
+  }
+
+  .sourced-sayhi {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 445px) {
   .title-how {
     font-size: 1.2rem;
+  }
+
+  .contact h2 {
+    font-size: 30px;
+  }
+
+  .contact a.email-link {
+    font-size: 16px;
   }
 }
