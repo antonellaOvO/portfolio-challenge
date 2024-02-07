@@ -56,7 +56,6 @@ footer {
 }
 
 footer a {
-  padding: 30px;
   color: white;
 }
 
@@ -64,11 +63,16 @@ hr {
   color: white;
   border: 1px solid;
   padding: 0px;
-  margin: 25px 5%;
+  margin: 0px 5%;
 }
 
 .links-footer {
-  padding: 20px;
+  padding: 20px 150px;
+  justify-content: space-evenly;
+}
+
+.links-footer .col-sm-3 {
+  padding: 0px;
 }
 
 .fa-facebook {
@@ -495,6 +499,10 @@ a.link-instagram {
 
   .sourced-sayhi {
     font-size: 12px;
+  }
+
+  .open-sourced {
+    font-size: 15px;
   }
 }
 
