@@ -543,4 +543,8 @@ a.link-instagram {
   .contact a.email-link {
     font-size: 16px;
   }
+
+  .links-footer {
+    font-size: 20px;
+  }
 }
