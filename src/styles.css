@@ -67,8 +67,12 @@ hr {
 }
 
 .links-footer {
-  padding: 20px 150px;
-  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.links-footer a {
+  padding: 20px;
+  text-align: center;
 }
 
 .links-footer .col-sm-3 {
